@@ -72,6 +72,10 @@ ul.posts {
     font-size: 80%;
   }
 
+  ul.posts a {
+    font-size: 90%;
+  }
+
 /*****************************************************************************/
 /*
 /* Site
@@ -95,6 +99,7 @@ ul.posts {
   .site .title a {
     color: #0F4D92;
     text-decoration: none;
+    font-size: 1.5em;
   }
 
   .site .title a:hover {
