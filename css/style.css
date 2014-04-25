@@ -99,7 +99,7 @@ ul.posts {
   .site .title a {
     color: #0F4D92;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .site .title a:hover {
@@ -109,7 +109,9 @@ ul.posts {
   .site .title a.extra {
     color: #aaa;
     text-decoration: none;
-    margin-left: 1em;
+    margin-left: 0.5em;
+    font-weight: normal;
+    font-size: 100%;
   }
 
   .site .title a.extra:hover {
