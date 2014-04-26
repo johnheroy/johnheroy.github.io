@@ -69,11 +69,11 @@ ul.posts {
   ul.posts span {
     color: #aaa;
     font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
+    font-size: 0.8em;
   }
 
   ul.posts a {
-    font-size: 90%;
+    font-size: 0.9em;
   }
 
 /*****************************************************************************/
@@ -81,7 +81,6 @@ ul.posts {
 /* Site
 /*
 /*****************************************************************************/
-
 
 h2 {
   font-size: 1.0em;
@@ -101,13 +100,13 @@ h2 {
   margin-bottom: 2em;
 }
 
-  .site .title a {
+  .site .title a.myname {
     color: #0F4D92;
     text-decoration: none;
     font-size: 1.2em;
   }
 
-  .site .title a:hover {
+  .site .title a.myname:hover {
     color: black;
   }
 
