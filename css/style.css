@@ -68,6 +68,7 @@ ul.posts {
 
   ul.posts span {
     color: #aaa;
+    font-weight: bold;
     font-family: Monaco, "Courier New", monospace;
     font-size: 0.8em;
   }
@@ -143,21 +144,30 @@ h2 {
       float: right;
     }
 
-      .site .footer .contact a {
-        color: #0F4D92;
-      }
+    #email-btn {
+      font-weight: bold;
+      color: white;
+      background: #0F4D92;
+      height: 25px;
+      width: 25px;
+      border-radius: 12.5px;
+      text-align: center;
+      font-size: 1.2em;
+      text-decoration: none;
+      vertical-align: top;
+    }
 
-      .site .footer .contact a:hover {
-        color: black;
-      }
+    #email-btn:hover {
+      background: #000;
+    }
 
         .site .footer .contact a img {
           filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
           filter: gray; /* IE6-9 */
           -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
-          height: 22px;
-          width: 22px;
-          border-radius: 11px;
+          height: 25px;
+          width: 25px;
+          border-radius: 12.5px;
         }
 
         .site .footer .contact a img:hover {
