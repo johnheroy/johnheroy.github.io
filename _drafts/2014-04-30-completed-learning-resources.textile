@@ -1,0 +1,14 @@
+---
+layout: post
+title: Completed Learning Resouces and Progress So Far
+---
+
+h1. {{ page.title }}
+
+p(meta). 30 Apr 2014 - Hong Kong
+
+This is a test.
+
+Codecademy HTML/CSS
+Codecademy Ruby
+Codecademy 
