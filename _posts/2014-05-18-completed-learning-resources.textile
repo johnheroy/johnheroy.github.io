@@ -1,0 +1,44 @@
+---
+layout: post
+title: Programming Self-Learning Roadmap
+---
+
+h1. {{ page.title }}
+
+p(meta). 18 May 2014 - Cannes
+
+Since beginning my journey to seriously learn (web) programming around December 2013, I have gone through a number of online resources to guide my self-learning. December 2013 through February 2014 was limited and focused mostly on preparing for applications to San Francisco-based "code schools", so most of this has been since February 2014, when I left my position at Morgan Stanley.
+
+After another few months, spending my summer coding in Shanghai, I hope to publish serious reviews of the below platforms to help others figure out their own roadmap to learning. There are quite a lot of free / cheap resources of high quality on the web, but it's often tough to figure out when to spend time on what resource. I have studied the below courses, in approximate chronological order:
+
+* "Codecademy":http://codecademy.com 
+** HTML & CSS - completed
+** Ruby - completed
+** JavaScript - completed
+* "Udacity":udacity.com
+** CS101: Intro to Computer Science - completed
+** Short course: Make Your Own 2014 - completed
+** CS253: Web Development - in progress
+* "Treehouse":treehouse.com
+** Numerous courses across HTML/CSS, Wordpress, and iOS
+* "Michael Hartl's Rail Tutorial":railstutorial.org
+** In progress, approx 75% completed
+* "JavaScript Koans":https://github.com/mrdavidlaing/javascript-koans
+** Completed
+* "Eloquent JavaScript":http://eloquentjavascript.net/
+** Partially read, plan to read through the whole thing in its entirety at another point
+* "Code School":codeschool.com
+** Try Ruby - completed
+** Try Objective-C - completed
+** Try jQuery - completed
+** Rails for Zombies Redux - completed
+** Rails for Zombies 2 - completed
+** JavaScript Road Trip Part 1 - completed
+** Discover DevTools - in progress
+** Rails 4: Zombie Outlaws - in progress
+
+Of all of these Code School is the most helpful for me right now--I felt that Treehouse can be a bit slow but when you are just starting out diving into a new concept/framework/language, it's a great way to get going without getting sidelined by jargon. 
+
+Codeacademy is at the other spectrum and a fantastic way to dip in from ground zero, very intuitive interface and lots of interesting exercises without having to sit still watching a video.
+
+In any case, these have all been worthwhile uses of my time, and now my focus is to keep building projects of increasing complexity in advance of my time in San Francisco this fall. If you have any questions, feel free to give me a shout! All the best of luck with your own learning.
