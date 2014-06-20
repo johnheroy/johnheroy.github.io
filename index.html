@@ -4,16 +4,15 @@ title: John Heroy
 ---
 
 <div id="home">
-  <h2>Blog Posts</h2>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+  <h2>Writing</h2>
+  <ul class="media">
+    <li><a href="http://johnheroy.com">My Blog</a></li>
   </ul>
 
   <h2>Projects</h2>
   <ul class="projects">
-	  <li><a href="/2048">2048: Imperial China Edition</a></li>
+	  <li><a href="/2048">2048: Imperial China Edition</a>, a simple fork of Gabriele Cirulli's 2048 and my attempt to play around with CSS</li>
+    <li><a href="/firebase-chat">WeChat Public Chat Demo</a>, an open chat room accessible through both WeChat (微信) and web clients, build with Node.js/Express and Firebase</li>
 	  <li>More coming soon!</li>
 	</ul>
 </div>
