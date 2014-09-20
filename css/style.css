@@ -105,13 +105,20 @@ span.symbol {
 /*
 /*****************************************************************************/
 
-ul.list-items {
+ul.projects, ul.recent-blog-posts {
   margin-left: 2em;
   margin-bottom: 2em;
 }
 
-ul.list-items li {
-  line-height: 1.75em;
+ul.recent-blog-posts li {
+  line-height: 1.7em;
+  margin-bottom: .2em;
+  font-size: 0.9em;
+}
+
+ul.projects li {
+  line-height: 1.7em;
+  margin-bottom: .4em;
   font-size: 0.9em;
 }
 
@@ -192,10 +199,19 @@ h2 {
 
 @media (max-width: 640px) {
 
-  .site {
-    width: 90%;
-    margin: 2em auto 2em auto;
-  }
+.site {
+  width: 90%;
+  margin: 2em auto 2em auto;
+}
+
+span.symbol {
+  font-size: 40px;
+}
+
+.social-link {
+  display: inline-block;
+  margin-top: 5px;
+}
 
 }
 
