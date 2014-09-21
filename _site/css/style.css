@@ -215,5 +215,22 @@ h2 {
     margin: 2em auto 2em auto;
   }
 
+  /* Bullets with no dates for blog post links */
+  ul.recent-blog-posts {
+    list-style-type: disc;
+  }
+
+  span.post-date {
+    display: none;
+  }
+
+  span.dash {
+    display: none;
+  }
+
+  ul.recent-blog-posts li {
+    text-indent: 0em;
+  }
+
 }
 
