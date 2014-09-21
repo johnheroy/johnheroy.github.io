@@ -110,16 +110,28 @@ ul.projects, ul.recent-blog-posts {
   margin-bottom: 2em;
 }
 
+ul.recent-blog-posts {
+  list-style-type: none;
+}
+
 ul.recent-blog-posts li {
   line-height: 1.7em;
   margin-bottom: .2em;
   font-size: 0.9em;
+  text-indent: -0.6em;
 }
 
 ul.projects li {
   line-height: 1.7em;
   margin-bottom: .4em;
   font-size: 0.9em;
+}
+
+span.post-date {
+  /*font-weight: bold;*/
+  color: #aaa;
+  display: inline-block;
+  width: 70px;
 }
 
 
