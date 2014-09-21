@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: #2D45C5;
 }
 
 a:visited {
@@ -201,15 +201,6 @@ h2 {
   .site {
     width: 90%;
     margin: 2em auto 2em auto;
-  }
-
-  span.symbol {
-    font-size: 38px;
-  }
-
-  .social-link {
-    display: inline-block;
-    margin-top: 5px;
   }
 
 }

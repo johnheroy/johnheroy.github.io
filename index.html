@@ -6,6 +6,9 @@ title: John Heroy
 <div id="home">
   <h2>Recent Blog Posts</h2>
   <ul class="recent-blog-posts">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
     <li><a target="_blank" href="http://blog.johnheroy.com/post/97039558703/rails-surveyor-gem-database-diagram">Rails Surveyor Gem - Database Diagram</a></li>
     <li><a target="_blank" href="http://blog.johnheroy.com/post/95164902323/developing-with-the-wechat-api">Developing with the WeChat (微信) API</a></li>
     <li><a target="_blank" href="http://blog.johnheroy.com/post/91116889618/diving-a-little-deeper-into-the-rails-asset-pipeline">Debugging the Rails Asset Pipeline</a></li>
