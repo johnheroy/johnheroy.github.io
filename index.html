@@ -6,6 +6,7 @@ title: John Heroy
 <div id="home">
   <h2>Recent Blog Posts</h2>
   <ul class="recent-blog-posts">
+    <li><span class="post-date">28 Sep 2014</span><span class="dash"> &mdash; </span><a target="_blank" href="http://blog.johnheroy.com/post/98704630503/writing-a-simple-web-scraping-command-line-utility-with">Writing a Simple Web-Scraping Command Line Utility with CasperJS</a></li>
     <li><span class="post-date">23 Sep 2014</span><span class="dash"> &mdash; </span><a target="_blank" href="http://blog.johnheroy.com/post/98244790243/serving-static-sites-for-development-using">Serving Static Sites for Development Using ‘http-server’</a></li>
     {% for post in site.posts %}
       <li><span class="post-date">{{ post.date | date_to_string }}</span><span class="dash"> &mdash; </span><a href="{{ post.url }}">{{ post.title }}</a></li>
