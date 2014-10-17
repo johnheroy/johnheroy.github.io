@@ -6,11 +6,11 @@ title: John Heroy
 <div id="home">
   <h2>Recent Blog Posts</h2>
   <ul class="recent-blog-posts">
-    <li><span class="post-date">28 Sep 2014</span><span class="dash"> &mdash; </span><a target="_blank" href="http://blog.johnheroy.com/post/98704630503/writing-a-simple-web-scraping-command-line-utility-with">Writing a Simple Web-Scraping Command Line Utility with CasperJS</a></li>
-    <li><span class="post-date">23 Sep 2014</span><span class="dash"> &mdash; </span><a target="_blank" href="http://blog.johnheroy.com/post/98244790243/serving-static-sites-for-development-using">Serving Static Sites for Development Using ‘http-server’</a></li>
     {% for post in site.posts %}
       <li><span class="post-date">{{ post.date | date_to_string }}</span><span class="dash"> &mdash; </span><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
+    <li><span class="post-date">28 Sep 2014</span><span class="dash"> &mdash; </span><a target="_blank" href="http://blog.johnheroy.com/post/98704630503/writing-a-simple-web-scraping-command-line-utility-with">Writing a Simple Web-Scraping Command Line Utility with CasperJS</a></li>
+    <li><span class="post-date">23 Sep 2014</span><span class="dash"> &mdash; </span><a target="_blank" href="http://blog.johnheroy.com/post/98244790243/serving-static-sites-for-development-using">Serving Static Sites for Development Using ‘http-server’</a></li>
     <li><span class="post-date">08 Sep 2014</span><span class="dash"> &mdash; </span><a target="_blank" href="http://blog.johnheroy.com/post/97039558703/rails-surveyor-gem-database-diagram">Rails Surveyor Gem - Database Diagram</a></li>
     <li><span class="post-date">18 Aug 2014</span><span class="dash"> &mdash; </span><a target="_blank" href="http://blog.johnheroy.com/post/95164902323/developing-with-the-wechat-api">Developing with the WeChat (微信) API</a></li>
     <li><span class="post-date">07 Jul 2014</span><span class="dash"> &mdash; </span><a target="_blank" href="http://blog.johnheroy.com/post/91116889618/diving-a-little-deeper-into-the-rails-asset-pipeline">Debugging the Rails Asset Pipeline</a></li>
