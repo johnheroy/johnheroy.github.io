@@ -4,6 +4,11 @@
 /*
 /*****************************************************************************/
 
+@font-face {
+  font-family: UbuntuMono;
+  src: url('../fonts/UbuntuMono-R.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -128,10 +133,9 @@ ul.projects li {
 }
 
 span.post-date {
-  /*font-weight: bold;*/
   color: #aaa;
-  display: inline-block;
-  width: 70px;
+  font-family: UbuntuMono;
+  font-size: 14px;
 }
 
 
