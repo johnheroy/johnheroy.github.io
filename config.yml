@@ -1,3 +1,5 @@
 name: John Heroy
-markdown: rdiscount
-highlighter: pygments
+markdown: kramdown
+
+kramdown:
+  input: GFM

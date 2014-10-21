@@ -37,4 +37,4 @@ Note that we decided to create a tmp folder in the travis environment which was 
   - if [[ "${TRAVIS_PULL_REQUEST}" == "false" ]]; then echo -e "${FIREBASE_EMAIL}\n${FIREBASE_PASSWORD}" | firebase deploy; fi
 </code></pre>
 
-Hooray! Continuous integration with Firebase using Travis-CI. Check us out and support our project OurGlass on [GitHub](https://github.com/unexpected-lion/ourglass)
+Hooray! Continuous integration with Firebase using Travis-CI. Check us out and support our project [OurGlass](https://github.com/unexpected-lion/ourglass) on GitHub!

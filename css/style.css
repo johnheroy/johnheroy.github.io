@@ -73,17 +73,17 @@ table {
 }
 
 .symbol {
-    font-family: 'Mono Social Icons Font';
-    -webkit-text-rendering: optimizeLegibility;
-    -moz-text-rendering: optimizeLegibility;
-    -ms-text-rendering: optimizeLegibility;
-    -o-text-rendering: optimizeLegibility;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -ms-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
+  font-family: 'Mono Social Icons Font';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 
 span.symbol {
@@ -205,7 +205,12 @@ h2 {
   float: right;
 }
 
-/* posts */
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
 pre {
   padding: 8px;
   border: 1px solid #ccc;
@@ -221,6 +226,10 @@ pre {
 code {
   display: auto;
   padding: 0.5em;
+}
+
+ul.related-posts {
+  list-style-type: none;
 }
 
 
