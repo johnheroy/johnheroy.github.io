@@ -48,7 +48,7 @@ http.createServer(function(req, res){
   });
   req.on('end', function(){
     body = JSON.parse(body.toString());
-    if (body.repository.name === '10000-sentences' && body.ref === 'refs/heads/master'){
+    if (body.repository.name === 'my-repo' && body.ref === 'refs/heads/master'){
       console.log('executing hook.sh');
       execFile(path.join(__dirname, './hook.sh'), function(error, stdout, stderr){
         if (error) console.log('there was an error running the hook.sh', error);
@@ -66,7 +66,7 @@ http.createServer(function(req, res){
 
 <pre><code>#!/bin/bash
 
-echo "Deploying master branch at $(date)" >> /home/azureuser/deployment_log.txt
+echo "Deploying master branch at $(date)" >> ~/deployment_log.txt
 
 git pull
 
