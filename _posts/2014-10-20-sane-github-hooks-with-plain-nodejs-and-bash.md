@@ -25,7 +25,7 @@ It's not the worst workflow ever, but it's totally doable to eliminate the whole
 
 I first fell upon [this blog post](http://codesquire.com/post/ContinuousDeployment), which got the idea in my head that I could simply listen on another port in my main Node.js server file. Ordinarily I wouldn't assume that a module doesn't work and trust the author, but after seeing [issue #20](https://github.com/danheberden/gith/issues/20) on GitHub and trying the suggested fix without success, I decided to just code up the solution myself since it was only a few lines of code and way more fun!
 
-Basically, I 
+Basically, I
 
 1. created a separate server instance using Node's 'http' included module to listen on a port other than 80 (and simulataneously opened this port on my VPS in the Azure management console--don't forget this step!), then
 1. In my 'requestListener' function passed to http.createServer, listen for the request 'data' event, save this as a string, then parse to a JavaScript object and validate the JSON request (i.e. repo name, branch, etc. so you aren't deploying for a 'develop' branch), then finally
@@ -62,7 +62,7 @@ http.createServer(function(req, res){
 });
 </code></pre>
 
-# <code>deploy.sh</code>
+# <code>hook.sh</code>
 
 <pre><code>#!/bin/bash
 
@@ -72,4 +72,3 @@ git pull
 
 forever restartall
 </code></pre>
-
